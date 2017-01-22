@@ -116,6 +116,14 @@ $ meteor npm install --save react react-dom
 $ meteor
 ``` 
 
+Tutorial Walkthrough installations
+
+```bash
+## Required to use data from a collection inside a React component
+$ meteor npm install --save react-addons-pure-render-mixin
+$ meteor add react-meteor-data
+```
+
 Additional installations
 - ESLint with Meteor [(link)](https://github.com/dferber90/eslint-plugin-meteor)
 
