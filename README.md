@@ -11,11 +11,17 @@ Visual Studio Code Recommended Extensions
 - vscode-icons by Roberto Huertas
 - jslint by Andrew Hyndman
 - vscode-pandoc by DougFinke [(link)](http://pandoc.org/installing.html)
+- ESLint by Dirk Baeumer
 
 ```bash
 ## JSlint: Run the following in project folder if meets error
 $ sudo npm install -g jslint
+
+## ESLint: Run the following in project folder
+$ npm install eslint
 ```
+
+Set up Visual Studio Code Debug [(link)](https://code.visualstudio.com/docs/editor/debugging)
 
 ## 2. Set up iTerm for Mac
 [Download for Mac, stable release.](https://www.iterm2.com/index.html)
