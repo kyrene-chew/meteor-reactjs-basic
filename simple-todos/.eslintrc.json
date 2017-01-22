@@ -40,6 +40,9 @@
         ],
         "no-tabs": [
             "warn"
+        ],
+        "no-trailing-spaces": [
+            "warn"
         ]
     }
 }
