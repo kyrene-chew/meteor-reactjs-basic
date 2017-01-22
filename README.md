@@ -11,14 +11,30 @@ Visual Studio Code Recommended Extensions
 - vscode-icons by Roberto Huertas
 - jslint by Andrew Hyndman
 - vscode-pandoc by DougFinke [(link)](http://pandoc.org/installing.html)
-- ESLint by Dirk Baeumer
+- ESLint by Dirk Baeumer [(link)](http://eslint.org/docs/user-guide/getting-started)
 
 ```bash
-## JSlint: Run the following in project folder if meets error
+## JSlint
+## Run the following in project folder if meets error
 $ sudo npm install -g jslint
 
-## ESLint: Run the following in project folder
-$ npm install eslint
+## ESLint
+## Run the following in project folder
+$ npm install eslint --save-dev
+## Set up config file
+$ ./node_modules/.bin/eslint --init
+? How would you like to configure ESLint? Answer questions about your style
+? Are you using ECMAScript 6 features? Yes
+? Are you using ES6 modules? Yes
+? Where will your code run? Browser
+? Do you use CommonJS? No
+? Do you use JSX? Yes
+? Do you use React? Yes
+? What style of indentation do you use? Spaces
+? What quotes do you use for strings? Single
+? What line endings do you use? Unix
+? Do you require semicolons? Yes
+? What format do you want your config file to be in? JSON
 ```
 
 Set up Visual Studio Code Debug [(link)](https://code.visualstudio.com/docs/editor/debugging)
@@ -99,4 +115,17 @@ $ meteor npm install --save react react-dom
 ## Run your server
 $ meteor
 ``` 
+
+Additional installations
+- ESLint with Meteor [(link)](https://github.com/dferber90/eslint-plugin-meteor)
+
+```bash
+## Install and Setup ESLint for Meteor
+$ meteor npm install --save-dev babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-meteor eslint-plugin-react eslint-plugin-jsx-a11y eslint-import-resolver-meteor eslint
+```
+
+For all installations, remember to stop your server with CTRL+C, before installing them. Remember to run the server after installation.
+
+>To view problems in Visual Studio Code, use the following (Shift+CMD+M). You will be able to look out for syntax and errors.
+
 With these, you should be able to go through the [simple to-do application tutorial](https://www.meteor.com/tutorials/react/creating-an-app) without any problem. 
