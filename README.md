@@ -126,10 +126,28 @@ $ meteor add react-meteor-data
 
 Additional installations
 - ESLint with Meteor [(link)](https://github.com/dferber90/eslint-plugin-meteor)
+- iOS simulator (Mac only) [(prerequisite)](http://guide.meteor.com/mobile.html#installing-prerequisites) [(link)](https://www.meteor.com/tutorials/react/running-on-mobile)
+- Android simulator [(prerequisite)](http://guide.meteor.com/mobile.html#installing-prerequisites) [(link)](https://www.meteor.com/tutorials/react/running-on-mobile)
+- 
 
 ```bash
 ## Install and Setup ESLint for Meteor
 $ meteor npm install --save-dev babel-eslint eslint-config-airbnb eslint-plugin-import eslint-plugin-meteor eslint-plugin-react eslint-plugin-jsx-a11y eslint-import-resolver-meteor eslint
+
+## Install and run iOS simulator on Mac
+$ meteor install-sdk ios
+$ meteor add-platform ios
+$ meteor run ios
+## OR, iOS device
+$ meteor run ios-device
+
+## Install and run Android simulator
+$ meteor install-sdk android
+$ meteor add-platform android
+$ meteor run android
+## OR, Android device
+$ meteor run android-device
+
 ```
 
 For all installations, remember to stop your server with CTRL+C, before installing them. Remember to run the server after installation.
