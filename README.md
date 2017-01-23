@@ -162,6 +162,9 @@ $ meteor remove autopublish
 
 ## Updates class in element
 $ meteor npm install --save classnames
+
+## Mocha Test Driver
+$ meteor add practicalmeteor:mocha
 ```
 
 For all installations, remember to stop your server with CTRL+C, before installing them. Remember to run the server after installation.
