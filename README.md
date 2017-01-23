@@ -128,7 +128,7 @@ Additional installations
 - ESLint with Meteor [(link)](https://github.com/dferber90/eslint-plugin-meteor)
 - iOS simulator (Mac only) [(prerequisite)](http://guide.meteor.com/mobile.html#installing-prerequisites) [(link)](https://www.meteor.com/tutorials/react/running-on-mobile)
 - Android simulator [(prerequisite)](http://guide.meteor.com/mobile.html#installing-prerequisites) [(link)](https://www.meteor.com/tutorials/react/running-on-mobile)
-- 
+- Blaze Account UI
 
 ```bash
 ## Install and Setup ESLint for Meteor
@@ -148,6 +148,11 @@ $ meteor run android
 ## OR, Android device
 $ meteor run android-device
 
+## Install Blaze Login Component
+$ meteor add accounts-ui accounts-password
+
+## Switch to native Javascript
+$ meteor npm install --save bcrypt
 ```
 
 For all installations, remember to stop your server with CTRL+C, before installing them. Remember to run the server after installation.
