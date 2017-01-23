@@ -73,7 +73,7 @@ Assuming that Run the following in your terminal or iTerm.
 ## Create tutorial simple-todos app
 $ meteor create simple-todos
 
-## Navigate into the app folder and install node 
+## Navigate into the app folder and install node
 $ cd simple-todos
 $ meteor npm install
 
@@ -85,7 +85,7 @@ Go to http://localhost:3000 to test your first Meteor application.
 
 # Simple To-Do application
 
-***Important Note:*** 
+***Important Note:***
 
 *For your application to run, please keep the terminal running the "meteor" command open. This will ensure that your server is still running. You need the server to run your application.*
 
@@ -114,7 +114,7 @@ $ meteor npm install --save react react-dom
 
 ## Run your server
 $ meteor
-``` 
+```
 
 Tutorial Walkthrough installations
 
@@ -153,10 +153,19 @@ $ meteor add accounts-ui accounts-password
 
 ## Switch to native Javascript
 $ meteor npm install --save bcrypt
+
+## Remove insecure, disable client side database changes
+$ meteor remove insecure
+
+## Remove auto publish, disable auto-sync of all data to all client
+$ meteor remove autopublish
+
+## Updates class in element
+$ meteor npm install --save classnames
 ```
 
 For all installations, remember to stop your server with CTRL+C, before installing them. Remember to run the server after installation.
 
 >To view problems in Visual Studio Code, use the following (Shift+CMD+M). You will be able to look out for syntax and errors.
 
-With these, you should be able to go through the [simple to-do application tutorial](https://www.meteor.com/tutorials/react/creating-an-app) without any problem. 
+With these, you should be able to go through the [simple to-do application tutorial](https://www.meteor.com/tutorials/react/creating-an-app) without any problem.
